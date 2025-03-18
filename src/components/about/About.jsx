@@ -71,7 +71,7 @@ const About = () => {
       <section className="second">
         {data.about.slice(1, 2).map((item, index) => (
           <div key={index} className="second-container">
-            <button className="btn">Our story</button>
+            <button className="btn">story</button>
             <h2>{item.title}</h2>
             <p>{item.description}</p>
             <div className="gallery">
