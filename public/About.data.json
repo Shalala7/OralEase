@@ -1,0 +1,45 @@
+{
+  "about": [
+    {
+      "title": "We are Dentalic, a dental clinic you can trust",
+      "description": "We are a modern dental clinic with a focus on patient satisfaction and quality care.",
+      "image": "about1.avif"
+    },
+    {
+      "title": "We started with only one goal: Make our clients smile",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem iste cumque doloribus, veniam, quia minima debitis distinctio animi atque voluptatum nihil, natus tempore illum optio ullam esse. Adipisci quod voluptatem pariatur beatae, nulla recusandae odio quaerat sequi nisi amet eos.",
+      "images": ["about2.jpg", "about3.avif"]
+    }
+  ],
+  "values": [
+    {
+      "icon": "abouticon.png",
+      "title": "Trust",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien habitant integer sen."
+    },
+    {
+      "icon": "medalicon.png",
+      "title": "Responsibility",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien habitant integer sen."
+    },
+    {
+      "icon": "heart.png",
+      "title": "Care & Service",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien habitant integer sen."
+    },
+    {
+      "icon": "handicon.png",
+      "title": "Commitment",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien habitant integer sen."
+    }
+  ],
+  "buttons": [
+    { "text": "Book an Appointment", "class": "books-btn","link":"/contact" },
+    { "text": "Browse Services", "class": "services-btn","link":"/services" }
+  ],
+  "contact": {
+    "email": "info@dentalclinic.com",
+    "phone": "+123456789",
+    "address": "123 Dental Street, City, Country"
+  }
+}

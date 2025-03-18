@@ -1,0 +1,35 @@
+.telIcon {
+  background-color: white;
+  border: 0.5px solid rgb(207, 203, 203);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.nav-book-btn{
+  background-color: #5d4fff;
+  border: none;
+  border-radius: 15px;
+  font-size: 14px;
+  padding: 15px;
+  color: white;
+  margin: 0 10px;
+  font-weight: bold;
+  box-shadow: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.book-btn a {
+  text-decoration: none;
+}
+.book-btn a:hover{
+    text-decoration: none;
+}
+li:hover {
+  color: #5d4fff;
+}
+h2 {
+  color: #110f42;
+  font-weight: 650;
+}
+a:hover{
+  text-decoration: none;
+}

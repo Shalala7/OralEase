@@ -1,0 +1,334 @@
+.contact {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.contact .contact-container {
+  margin: 150px 5%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-contact {
+  width: 45%;
+}
+
+.text-contact h1 {
+  color: #181443;
+  font-weight: 650;
+}
+
+.text-contact p {
+  color: rgb(146, 144, 144);
+  font-weight: 600;
+}
+
+.text-contact h4 {
+  color: #181443;
+  font-weight: 650;
+  margin: 30px 0;
+}
+
+.text-contact .img {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.text-contact .img img {
+  width: 45px;
+  height: 45px;
+}
+
+.text-contact .text h6 {
+  color: #181443;
+  font-weight: 650;
+}
+
+.text-contact-container p {
+  transition-duration: 0.5s;
+}
+
+.text-contact-container p:hover {
+  color: #181443;
+}
+
+.text-contact-container a:hover {
+  text-decoration: none;
+}
+
+.contact-container .form {
+  width: 45%;
+  min-height: 300px;
+  border: 2px solid rgb(204, 200, 200);
+  border-radius: 20px;
+  padding: 50px 30px;
+  display: flex;
+  box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  flex-direction: column;
+}
+
+.form:hover {
+  transform: translateY(10px);
+  box-shadow: 0 0 15px 20px rgba(0, 0, 0, 0.12);
+}
+
+.form label {
+  color: #181443;
+  font-weight: 650;
+}
+
+.form input,
+.form textarea {
+  border: 2px solid rgb(204, 200, 200);
+  border-radius: 15px;
+  padding: 10px;
+  width: 100%;
+}
+
+.form button {
+  color: white;
+  background-color: #635dff;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 15px;
+  box-shadow: none;
+  margin: 5px auto;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* === Social Media Bölməsinin Yeni Grid Dizaynı === */
+.media {
+  width: 85%;
+  margin: 50px auto;
+}
+.media .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.media-container {
+  text-align: center;
+  width: 100%;
+}
+.grid-item {
+  background: #f2f1fe;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+  transform: translateY(-5px);
+}
+
+.grid-item img {
+  width: 60px;
+}
+
+.grid-item h5 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #181443;
+}
+
+.grid-item p {
+  font-size: 14px;
+  color: gray;
+}
+
+.grid-item a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #635dff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.grid-item a:hover {
+  text-decoration: underline;
+}
+
+/* 1024px-ə qədər cihazlarda (planşet) */
+@media (max-width: 1024px) {
+  .contact .contact-container {
+    margin-bottom: 50px;
+  }
+  .contact {
+    margin-top: 100px;
+    padding-bottom: 0;
+  }
+  .text-contact,
+  .contact-container .form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-container .form {
+    padding: 40px 20px;
+  }
+
+  .text-contact h1 {
+    font-size: 1.8rem;
+  }
+
+  .text-contact p,
+  .text-contact h4 {
+    font-size: 1rem;
+  }
+
+  .text-contact .img img {
+    width: 35px;
+    height: 35px;
+  }
+  .media {
+    margin: 0 auto;
+  }
+  .media-container .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .grid-item {
+    padding: 20px;
+  }
+
+  .grid-item img {
+    width: 50px;
+  }
+}
+
+/* 768px və daha kiçik cihazlarda (mobil) */
+@media (max-width: 768px) {
+  .contact .contact-container {
+    margin-top: 100px;
+  }
+
+  .text-contact,
+  .contact-container .form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-container .form {
+    padding: 20px 10px;
+  }
+.contact .contact-container .form .form-group label{
+  font-size: 0.9rem;
+}
+  .text-contact h1 {
+    font-size: 1.6rem;
+  }
+
+  .text-contact p,
+  .text-contact h4 {
+    font-size: 0.95rem;
+  }
+
+  .text-contact .img img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .media-container .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-item {
+    padding: 15px;
+  }
+
+  .grid-item img {
+    width: 40px;
+  }
+  .media-container h2 {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .form {
+    margin-bottom: 50px;
+  }
+  .form input,
+  .form textarea {
+    font-size: 0.9rem;
+  }
+
+  .form button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 430px) {
+ 
+  .contact .contact-container {
+    margin: 50px 5%;
+    margin-bottom: 0;
+  }
+
+  .text-contact,
+  .contact-container .form {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .contact-container .form {
+    padding: 5px 35px;
+  }
+
+  .text-contact h1 {
+    font-size: 1.2rem;
+    margin: 20px auto;
+  }
+
+  .text-contact p,
+  .text-contact h4 {
+    font-size: 0.7rem;
+  }
+
+  .text-contact .img img {
+    width: 20px;
+    height: 20px;
+  }
+  .media {
+    margin-top: 40px;
+  }
+  .media-container .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .media-container h2 {
+    font-size: 1.1rem;
+  }
+  .grid-item {
+    padding: 5px 10px;
+  }
+  .grid-item a {
+    font-size: 0.8rem;
+  }
+  .grid-item img {
+    width: 40px;
+  }
+
+  .form label {
+    font-size: 0.8rem;
+  }
+  .form input,
+  .form textarea {
+    font-size: 0.6rem;
+  }
+
+  .form button {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+  }
+}

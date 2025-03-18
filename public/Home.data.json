@@ -1,0 +1,116 @@
+{
+  "heroSection": {
+    "title": "Transforming Smiles with Expert Dental Care",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit velit, sapien habitant integer senectus malesuada ac.",
+    "buttons": [
+      {
+        "text": "Book an Appointment",
+        "link": "/contact"
+      },
+      {
+        "text": "Browse Services",
+        "link": "/services"
+      }
+    ],
+    "image": "hero-image.jpg"
+  },
+  "contactInfo": [
+    {
+      "icon": "letterIcon.webp",
+      "title": "Contact Us",
+      "phone": "+994 55 943 05 15",
+      "email": "contact@dentalic.com",
+      "linkText": "Book an appointment",
+      "link": "/contact"
+    },
+    {
+      "icon": "clockIcon.jpg",
+      "title": "Open Hours",
+      "hours": {
+        "Mon - Fri": "8:00 AM to 5:00 PM",
+        "Sat": "9:00 AM to 3:30 PM",
+        "Sun": "9:00 AM to 3:30 PM"
+      }
+    },
+    {
+      "icon": "teethIcon.avif",
+      "title": "Services",
+      "list": ["Cosmetic Dentist", "Dental Implants", "Teeth Whitening"]
+    }
+  ],
+
+  "aboutSection": {
+    "tag": "About Us",
+    "title": "Our team has only one mission: Make you smile",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maecenas viverra at quis nibh. Tortor, quis aenean vitae, enim, magna tortor. Sed vivamus porttitor tempus",
+    "doctor": {
+      "name": "Dr.Resad Nesreddinov",
+      "role": "Dentist at Global Dentistry",
+      "image": "dr.jpg"
+    },
+    "button": {
+      "text": "About our Clinic",
+      "link": "/about"
+    }
+  },
+
+  "teamSection": {
+    "title": "Meet Our Expert Team",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam ex pariatur veritatis. Mollitia maxime assumenda, earum quisquam debitis praesentium aliquid est culpa?",
+    "members": [
+      {
+        "name": "Sophie Moore",
+        "image": "sophie.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus massa felis in sedoel commodo. Augue morbi molestie"
+      },
+      {
+        "name": "Morgan Woods",
+        "image": "morgan.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus massa felis in sedoel commodo. Augue morbi molestie"
+      },
+      {
+        "name": "Lila Wood",
+        "image": "lila.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus massa felis in sedoel commodo. Augue morbi molestie"
+      }
+    ],
+    "button": {
+      "text": "Book an Appointment",
+      "link": "/contact"
+    }
+  },
+
+  "contactSection": {
+    "tag": "Contact Us",
+    "title": "Get in touch to book your first appointment",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt integer elit cum sed etiam nisl arcu.",
+    "phone": "+994 55 943 05 15",
+    "email": "contact@dentalic.com"
+  },
+  "servicesSection": {
+    "title": "Our team of dentists can help with a variety of dental services",
+    "services": [
+      {
+        "title": "Cosmetic Dentistry",
+        "description": "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
+        "linkText": "Learn More",
+        "link": "/services",
+        "icon": "cardTeeth.png"
+      },
+      {
+        "title": "Orthodontics",
+        "description": "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
+        "linkText": "Learn More",
+        "link": "/services",
+        "icon": "cardTeeth2.svg"
+      },
+      {
+        "title": "Oral Hygiene",
+        "description": "Lorem ipsum dolor sit amet, diument consectetur adipiscing elit.",
+        "linkText": "Learn More",
+        "link": "/services",
+        "icon": "cardTEETH.svg"
+      }
+    ]
+  }
+}

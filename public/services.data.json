@@ -1,0 +1,44 @@
+{
+  "header": {
+    "title": "Our Services",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore neque modi nostrum aliquam totam praesentium."
+  },
+  "services": [
+    {
+      "img": "images.png",
+      "title": "Cosmetic Dentistry",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "addInfo": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quaerat repudiandae laborum numquam nisi aperiam veniam blanditiis reiciendis deserunt sunt. Blanditiis fugit laboriosam totam animi quod hic, aliquam reiciendis est aliquid suscipit officia similique cupiditate ad vel debitis accusamus voluptate perferendis molestiae doloribus expedita distinctio. Rem autem quo veritatis expedita?"
+    },
+    {
+      "img": "cardTeeth2.svg",
+      "title": "Orthodontics",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "addInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quaerat repudiandae laborum numquam nisi aperiam veniam blanditiis reiciendis deserunt sunt. Blanditiis fugit laboriosam totam animi quod hic, aliquam reiciendis est aliquid suscipit officia similique cupiditate ad vel debitis accusamus voluptate perferendis molestiae doloribus expedita distinctio. Rem autem quo veritatis expedita?"
+    },
+    {
+      "img": "cardTEETH.svg",
+      "title": "Oral Hygiene",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "addInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quaerat repudiandae laborum numquam nisi aperiam veniam blanditiis reiciendis deserunt sunt. Blanditiis fugit laboriosam totam animi quod hic, aliquam reiciendis est aliquid suscipit officia similique cupiditate ad vel debitis accusamus voluptate perferendis molestiae doloribus expedita distinctio. Rem autem quo veritatis expedita?"
+    },
+    {
+      "img": "CARDTEETHh.svg",
+      "title": "Dental Treatment",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "addInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quaerat repudiandae laborum numquam nisi aperiam veniam blanditiis reiciendis deserunt sunt. Blanditiis fugit laboriosam totam animi quod hic, aliquam reiciendis est aliquid suscipit officia similique cupiditate ad vel debitis accusamus voluptate perferendis molestiae doloribus expedita distinctio. Rem autem quo veritatis expedita?"
+    },
+    {
+      "img": "cardteeth3.svg",
+      "title": "Dental Surgery",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "addInfo": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quaerat repudiandae laborum numquam nisi aperiam veniam blanditiis reiciendis deserunt sunt. Blanditiis fugit laboriosam totam animi quod hic, aliquam reiciendis est aliquid suscipit officia similique cupiditate ad vel debitis accusamus voluptate perferendis molestiae doloribus expedita distinctio. Rem autem quo veritatis expedita?"
+    },
+    {
+      "img": "cardddteeth.svg",
+      "title": "Dental Implants",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "addInfo": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quaerat repudiandae laborum numquam nisi aperiam veniam blanditiis reiciendis deserunt sunt. Blanditiis fugit laboriosam totam animi quod hic, aliquam reiciendis est aliquid suscipit officia similique cupiditate ad vel debitis accusamus voluptate perferendis molestiae doloribus expedita distinctio. Rem autem quo veritatis expedita?"
+    }
+  ]
+}

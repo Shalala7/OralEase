@@ -1,0 +1,47 @@
+{
+  "appointment": {
+    "title": "Book your appointment",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et luctus nisl volutpat arcu nibh blandit.",
+    "information": "More information"
+  },
+  "moreInformation": {
+    "address": {
+      "label": "Address",
+      "value": "5678 Seltice Way Coeur D Alene, ID 12345, US."
+    },
+    "email": {
+      "label": "Email",
+      "value": "contact@dentalic.com"
+    },
+    "phone": {
+      "label": "Phone",
+      "value": "+994 55 943 05 15"
+    }
+  },
+  "socialLinks": {
+    "facebook": {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/yourpage",
+      "p": "Lorem ipsum dolor sit amet, adi consectetur adipiscing.",
+      "img": "facebook.jpg"
+    },
+    "twitter": {
+      "label": "Twitter",
+      "url": "https://www.twitter.com/yourpage",
+      "p": "Lorem ipsum dolor sit amet, adi consectetur adipiscing.",
+      "img": "twitter.webp"
+    },
+    "instagram": {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/resadnesreddinov?igsh=cTNkY2dmMzUxdGlu",
+      "p": "Lorem ipsum dolor sit amet, adi consectetur adipiscing.",
+      "img": "instagram.png"
+    },
+    "googleMaps": {
+      "label": "Google Maps",
+      "url": "https://maps.app.goo.gl/P3n96ceDnw1pt8nx5",
+      "p": "Lorem ipsum dolor sit amet, adi consectetur adipiscing.",
+      "img": "location.webp"
+    }
+  }
+}

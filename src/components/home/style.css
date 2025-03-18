@@ -1,0 +1,981 @@
+.first-home {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  margin: 100px auto;
+  flex-wrap: wrap;
+  position: relative;
+  .home-page {
+    width: 49%;
+    margin: 150px 0;
+    padding: 0 80px;
+    h1 {
+      color: #110f3c;
+      font-weight: bolder;
+    }
+    p {
+      color: rgb(90, 88, 88);
+    }
+  }
+  .services-btn {
+    color: #5d4fff;
+    background-color: white;
+    border: 0.5px solid rgb(207, 203, 203);
+    border-radius: 0 15px 15px 0;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  .btn a:hover {
+    text-decoration: none;
+  }
+  .dctr-img {
+    width: 49%;
+    img {
+      width: 100%;
+    }
+  }
+}
+.home-page .first-book-btn {
+  background-color: #5d4fff;
+  padding: 15px 5px;
+  border-radius: 15px 0 0 15px;
+}
+/* .info-time*/
+.info-time {
+  position: absolute;
+  left: 50%;
+  bottom: -5%;
+  transform: translateX(-50%);
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+/* Grid konteyner */
+.info-time-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /* 250px-dən kiçik olarsa, yeni sətirə keçəcək */
+  gap: 20px; /* Elementlər arasında boşluq */
+}
+
+/* Hər bir məlumat bloku */
+.info-time-cols {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effekti */
+.info-time-cols:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Şəkil üçün stil */
+.img-icons img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  padding: 5px;
+}
+
+/* Mətn hissəsi */
+.textT {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Başlıqlar */
+.textT h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1c185f;
+  margin-bottom: 5px;
+}
+
+/* Paraqraflar */
+.textT p {
+  font-size: 16px;
+  color: rgb(87, 87, 87);
+  margin: 3px 0;
+}
+
+/* Düymə üçün stil */
+.btn-app {
+  border: none;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-app a {
+  color: #1c185f;
+  text-decoration: none;
+}
+
+.second-home {
+  width: 100%;
+  min-height: 100vh;
+  margin: 50px auto;
+}
+.service-btn {
+  color: #110f3c;
+  border: none;
+  border-radius: 10px;
+  font-weight: 650;
+  margin-left: 130px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.textAndBtn .second-book-btn {
+  background-color: #5d4fff;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: 650;
+  height: 50px;
+  border-radius: 115px;
+  color: white;
+}
+.cards-home {
+  width: 80%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Aralarında boşluq olsun deyə */
+  justify-content: center;
+}
+
+.card {
+  align-items: center;
+  border-radius: 20px;
+  background-color: #f2f1ff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  min-height: 300px;
+}
+
+.card .card-img-top {
+  width: 150px;
+  height: 150px;
+}
+
+.card-body .card-title {
+  color: #110f3c;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.card-body a {
+  color: #5d4fff;
+  font-weight: 700;
+}
+
+.textAndBtn {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.textAndBtn h3 {
+  color: #110f3c;
+  width: 40%;
+  margin: 30px 0;
+  font-weight: bolder;
+}
+
+.book-btn {
+  width: 200px;
+  height: 60px;
+}
+
+.third-home {
+  width: 100%;
+  height: 120vh;
+  background-color: #faf9fc;
+  position: relative;
+  .third-container-home {
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 100px 0;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2%;
+    .images {
+      width: 48%;
+      .dentist {
+        border-radius: 25px;
+        height: 450px;
+        width: 500px;
+      }
+      .nurse {
+        width: 430px;
+        height: 320px;
+        border-radius: 25px;
+        left: 17%;
+        bottom: 40px;
+        position: absolute;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+  .third-text-home {
+    width: 48%;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    .services-btn {
+      border: none;
+      color: #5d4fff;
+      font-size: 15px;
+      padding: 10px 15px;
+      font-weight: 650;
+      box-shadow: 0 4px 6px rgba(15, 14, 51, 0.308);
+    }
+    .third-book-btn {
+      font-size: 15px;
+      font-weight: 650;
+      background-color: #5d4fff;
+      color: white;
+      padding: 13px 20px;
+      box-shadow: 0 4px 6px rgba(15, 14, 51, 0.308);
+    }
+    h2 {
+      color: #110f3c;
+      font-weight: 700;
+      width: 100%;
+      margin: 10px 0;
+    }
+    h3 {
+      color: #110f3c;
+      font-weight: 600;
+    }
+    p {
+      color: #a4a0d4;
+      font-weight: 600;
+      width: 100%;
+      margin: 10px 0;
+    }
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin: 10px;
+    }
+  }
+}
+.fourth-home {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin: 100px auto;
+  .text-container-home {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    h2 {
+      color: #110f3c;
+      font-weight: 700;
+    }
+    p {
+      color: #a4a0d4;
+      font-weight: 600;
+    }
+  }
+  .team {
+    width: 80%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 sütunlu grid */
+    gap: 20px; /* Kartlar arasında boşluq */
+    .team-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); */
+      border-radius: 25px;
+      transition: box-shadow 0.5s ease-in-out;
+      border: 2px solid rgb(224, 216, 216);
+      h4 {
+        color: #110f3c;
+        font-weight: 650;
+        margin: 10px 0;
+      }
+      p {
+        color: rgb(173, 171, 171);
+        font-weight: 630;
+      }
+      img {
+        width: 100%;
+        border-radius: 25px 25px 0 0;
+      }
+    }
+  }
+  .fourth-book-btn {
+    font-size: 15px;
+    font-weight: 650;
+    background-color: #5d4fff;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-shadow: 0 4px 6px rgba(15, 14, 51, 0.308);
+  }
+}
+.team-card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px 15px rgba(93, 93, 100, 0.315) !important;
+}
+.last-home {
+  width: 100%;
+  min-height: 100vh;
+  margin: 100px auto;
+  .last-container-home {
+    margin: 100px 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    .contact-home {
+      width: 48%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .contact-btn {
+        width: 120px;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        a {
+          font-weight: 650;
+          color: #110f3c;
+        }
+      }
+      h2 {
+        color: #110f3c;
+        font-weight: 700;
+        margin: 20px 0;
+      }
+      p {
+        color: gray;
+        font-weight: 600;
+        margin: 10px 0;
+      }
+      img {
+        width: 45px;
+        height: 45px;
+      }
+    }
+    .form-home {
+      border: 1px solid rgb(202, 197, 197);
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      padding: 50px 40px;
+      width: 48%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      form {
+        display: flex;
+        flex-wrap: wrap;
+
+        .form-group-home {
+          width: 50%;
+          input {
+            border-radius: 10px;
+            border: 1px solid rgb(184, 180, 180);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            padding: 13px;
+          }
+          label {
+            color: #1c185f;
+            font-weight: 650;
+            font-size: 18px;
+          }
+          textarea {
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid rgb(184, 180, 180);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+.submit-btn {
+  margin: 0 auto;
+  padding: 10px 18px;
+  color: white;
+  background-color: #5d4fff;
+  border: none;
+  box-shadow: none;
+  font-weight: 650;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+  .home-page {
+    margin: 20px 0;
+    padding: 0 30px;
+  }
+  .home-page h1 {
+    font-size: 1.7rem;
+  }
+  .home-page p {
+    font-size: 1.1rem;
+  }
+  .dctr-img img {
+    height: 450px;
+  }
+  .first-book-btn {
+    font-size: 0.9rem;
+  }
+  .services-btn {
+    padding: 10px;
+  }
+  .info-time {
+    top: 85%;
+    width: 85%;
+  }
+  .info-time .info-time-container {
+    padding: 5px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .img-icons img {
+    width: 50px;
+    height: 50px;
+  }
+  .textT h5 {
+    font-size: 1.1rem;
+  }
+  .textT p {
+    font-size: 0.9rem;
+  }
+  .service-btn {
+    margin-left: 100px;
+  }
+  .textAndBtn h3 {
+    font-size: 1.4rem;
+  }
+  .textAndBtn .second-book-btn {
+    font-size: 0.9rem;
+  }
+  .cards-home {
+    width: 85%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card {
+    padding: 15px;
+  }
+  .card .card-img-top {
+    width: 120px;
+    height: 120px;
+  }
+  .card-body .card-title {
+    font-size: 1.125rem;
+  }
+  .card-body .card-text {
+    font-size: 0.9rem;
+  }
+  .card-body a {
+    font-size: 1rem;
+  }
+  .third-home .third-container-home .images {
+    width: 48%;
+  }
+  .third-home .third-container-home .images .dentist {
+    border-radius: 25px;
+    height: 350px;
+    width: 260px;
+  }
+  .third-home .third-container-home .images .nurse {
+    width: 330px;
+    height: 220px;
+    border-radius: 25px;
+    left: 17%;
+    bottom: 40px;
+    position: absolute;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  .third-text-home h2 {
+    font-size: 1.55rem;
+  }
+  .third-text-home p {
+    font-size: 1rem;
+  }
+  .third-text-home img {
+    width: 35px;
+    height: 35px;
+  }
+  .third-text-home h3 {
+    font-size: 1.2rem;
+  }
+
+  .team-card img {
+    height: 230px;
+  }
+  .team-card h4 {
+    font-size: 1.2rem;
+  }
+  .team-card p {
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+  .contact-home h2 {
+    font-size: 1.4rem;
+  }
+  .contact-home p {
+    font-size: 1rem;
+  }
+  .form-home .submit-btn {
+    font-size: 0.9rem;
+  }
+  label {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 768px) {
+  .home-page {
+    margin: 50px 0 !important;
+    padding: 40px 30px;
+  }
+  .home-page h1 {
+    font-size: 1.4rem;
+  }
+  .home-page p {
+    font-size: 0.9rem;
+  }
+  .dctr-img img {
+    height: 350px;
+  }
+  .home-page .first-book-btn {
+    font-size: 0.6rem;
+  }
+  .services-btn {
+    font-size: 0.6rem;
+  }
+  .info-time {
+    bottom: 0;
+    width: 80%;
+  }
+  .info-time .info-time-container {
+    padding: 5px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .img-icons img {
+    width: 40px;
+    height: 40px;
+  }
+  .textT h5 {
+    font-size: 1rem;
+  }
+  .textT p {
+    font-size: 0.8rem;
+  }
+  .service-btn {
+    margin-left: 90px;
+    margin-top: 20px;
+  }
+  .textAndBtn h3 {
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+  .textAndBtn .second-book-btn {
+    font-size: 0.8rem;
+    margin-top: 30px;
+    padding: 10px;
+  }
+  .second-home {
+    margin-bottom: 300px;
+  }
+  .cards-home {
+    width: 85%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    padding: 10px;
+  }
+  .card .card-img-top {
+    width: 100px;
+    height: 100px;
+  }
+  .card-body .card-title {
+    font-size: 1.1rem;
+  }
+  .card-body .card-text {
+    font-size: 0.8rem;
+  }
+  .card-body a {
+    font-size: 0.9rem;
+  }
+  .third-home .third-container-home .images {
+    width: 48%;
+  }
+  .third-home .third-container-home .images .dentist {
+    border-radius: 25px;
+    height: 350px;
+    width: 260px;
+  }
+  .third-home .third-container-home .images .nurse {
+    width: 260px;
+    height: 200px;
+    border-radius: 25px;
+    left: 14%;
+    bottom: 10%;
+    position: absolute;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  .third-text-home h2 {
+    font-size: 1.3rem;
+  }
+  .third-text-home p {
+    font-size: 0.9rem;
+  }
+  .third-text-home img {
+    width: 30px;
+    height: 30px;
+  }
+  .third-text-home h3 {
+    font-size: 1.1rem;
+  }
+  .fourth-home .team {
+    grid-template-columns: repeat(2, 1fr);
+    width: 75%;
+  }
+  .team-card img {
+    height: 230px;
+  }
+  .team-card h4 {
+    font-size: 1.2rem;
+  }
+  .team-card p {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+  .fourth-home .fourth-book-btn {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+  .last-container-home {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .last-home .last-container-home .contact {
+    width: 80%;
+    padding: 0;
+  }
+  .last-home .last-container-home .form-home {
+    width: 80%;
+  }
+  .form-home form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form .form-group-home {
+    width: 100%;
+  }
+  .contact-home h2 {
+    font-size: 1.4rem;
+  }
+  .contact-home p {
+    font-size: 1rem;
+  }
+  .form-home .submit-btn {
+    font-size: 0.9rem;
+  }
+  label {
+    font-size: 0.4rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .first-home {
+    margin: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-home .home-page {
+    margin: 0 !important;
+    padding: 0 20px;
+    width: 90%;
+  }
+  .home-page h1 {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+  .home-page p {
+    font-size: 0.9rem;
+    margin: 0 !important;
+  }
+  .first-home .dctr-img {
+    background-color: #f2f1ff;
+    padding: 0;
+    position: absolute;
+    top: 8%;
+  }
+  .first-home .dctr-img img {
+    height: 250px;
+    width: 100%;
+  }
+  .home-page .first-book-btn {
+    font-size: 0.5rem;
+  }
+  .services-btn {
+    font-size: 0.5rem;
+  }
+  .info-time {
+    bottom: 0;
+    width: 75%;
+  }
+  .info-time .info-time-container {
+    padding: 5px;
+    grid-template-columns: 1fr;
+  }
+  .img-icons img {
+    width: 40px;
+    height: 40px;
+  }
+  .textT h5 {
+    font-size: 1rem;
+  }
+  .textT p {
+    font-size: 0.7rem;
+  }
+  .service-btn {
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  .textAndBtn h3 {
+    font-size: 0.9rem;
+    margin-left: 30px;
+  }
+  .textAndBtn .second-book-btn {
+    font-size: 0.6rem;
+    font-weight: 600;
+    margin-right: 25px;
+    margin-top: 30px;
+    padding: 1px 5px;
+  }
+  .second-home {
+    margin-top: 150px;
+    margin-bottom: 50px !important;
+  }
+  .cards-home {
+    width: 60%;
+    grid-template-columns: 1fr;
+  }
+  .card {
+    padding: 10px;
+  }
+  .card .card-img-top {
+    width: 100px;
+    height: 100px;
+  }
+  .card-body .card-title {
+    font-size: 1rem;
+  }
+  .card-body .card-text {
+    font-size: 0.6rem;
+  }
+  .card-body a {
+    font-size: 0.8rem;
+  }
+  .third-home {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 900px !important;
+  }
+
+  .third-home .third-container-home {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .third-home .third-container-home .images {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .third-home .third-container-home .images .dentist {
+    border-radius: 25px;
+    height: 300px;
+    width: 250px;
+  }
+
+  .third-home .third-container-home .images .nurse {
+    width: 250px;
+    height: 180px;
+    border-radius: 25px;
+    left: 34%;
+    bottom: 52%;
+    position: absolute;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .third-home .third-container-home .third-text-home {
+    width: 100%;
+    margin: 20px auto 0 auto !important; /* Aşağı margin-i azaltdım */
+    padding-bottom: 0 !important;
+  }
+
+  .third-text-home h2 {
+    font-size: 1.3rem;
+  }
+
+  .third-text-home p {
+    font-size: 0.9rem;
+  }
+
+  .third-text-home img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .third-text-home h3 {
+    font-size: 1.1rem;
+    margin: 10px auto; /* Margin-i azaltdım */
+  }
+
+  .third-home .third-container-home .third-text-home .third-book-btn {
+    font-size: 0.7rem;
+    padding: 10px;
+    margin-bottom: 0 !important;
+  }
+
+  .fourth-home {
+    margin-top: 0 !important;
+  }
+  .fourth-home .text-container-home h2 {
+    font-size: 1.3rem;
+  }
+  .fourth-home .text-container-home p {
+    font-size: 0.7rem;
+  }
+  .fourth-home .team {
+    grid-template-columns: 1fr;
+    width: 65%;
+  }
+  .team-card img {
+    height: 230px;
+  }
+  .team-card h4 {
+    font-size: 1.1rem;
+  }
+  .team-card p {
+    font-size: 0.8rem;
+    padding: 15px;
+  }
+  .fourth-home .fourth-book-btn {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+  .last-home {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .last-home .last-container-home {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 0 !important;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  .last-home .last-container-home .contact-home {
+    width: 90%;
+    padding: 0;
+    min-height: 400px !important;
+    margin: 0 !important;
+  }
+  .last-home .last-container-home .form-home {
+    width: 90%;
+    margin-top: 0 !important;
+  }
+  .form-home form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .last-home .last-container-home .form-home form .form-group-home {
+    width: 100%;
+  }
+  .contact-home h2 {
+    font-size: 1.4rem;
+  }
+  .contact-home p {
+    font-size: 1rem;
+  }
+  .form-home .submit-btn {
+    font-size: 0.9rem;
+  }
+  label {
+    font-size: 0.4rem;
+  }
+  .footer .input-group .form-control {
+    width: 100%;
+  }
+  .footer .input-group .subscribe {
+    width: 100%;
+  }
+  .footer .contact-footer .list-unstyled img {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .first-home .dctr-img img {
+    height: 210px;
+    width: 100%;
+  }
+  .footer .input-group .form-control {
+    width: 100%;
+  }
+  .footer .input-group .subscribe {
+    width: 100%;
+  }
+  .footer .contact-footer .list-unstyled img {
+    height: 40px;
+    width: 40px;
+  }
+}

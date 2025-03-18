@@ -1,0 +1,259 @@
+/* Ümumi stillər */
+.services {
+  width: 100%;
+  min-height: 100vh; /* Hündürlüyü ekranın hündürlüyünə görə tənzimləyirik */
+  padding-bottom: 100px; /* Footer yerinə görə boşluq əlavə edilir */
+}
+
+.services-container {
+  width: 90%;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Başlıq və düymə */
+.text-services h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #161c2d;
+}
+
+.text-services p {
+  font-size: 1rem;
+  color: #a7a4a4;
+  font-weight: 600;
+}
+
+.btn.book-btn {
+  padding: 10px 20px;
+  background-color: #635dff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn.book-btn:hover {
+  background-color: #4a47e0;
+}
+
+/* Xidmətlər üçün grid (Komputer versiyası) */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 sütun */
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Kart dizaynı */
+.service-card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow:0 0 15px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Şəkil bölməsi */
+.service-img {
+  display: flex;
+  border-radius: 20px 20px 0 0;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  background: #f2f1fe;
+}
+
+.service-img img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Kartın məzmunu */
+.service-card h5 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #161c2d;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* "Learn More" linki */
+.service-card a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #635dff;
+  transition: color 0.3s ease;
+}
+
+.service-card a:hover {
+  color: #4a47e0;
+}
+
+/* Açılan Panel */
+.side-panel {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 500px;
+  height: 100vh;
+  background: white;
+  box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: right 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+  z-index: 1000;
+  padding-top: 50px; /* Üst tərəfdən boşluq */
+}
+
+/* Panel açıldıqda */
+.side-panel.active {
+  right: 0;
+  margin-top:50px ;
+}
+.side-panel .apply-btn{
+  background-color: green;
+  border-radius: 10px;
+  border: none;
+  box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
+  padding: 7px 20px;
+  font-weight: 650;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.side-panel .apply-btn:hover{
+  background-color: rgb(3, 71, 3);
+  box-shadow: none;
+}
+/* Bağlanma düyməsi */
+.side-panel .close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+/* **Mobil və Planşet versiyası üçün düzəlişlər** */
+
+/* 1024px-ə qədər cihazlarda (laptop) */
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr); /* 2 sütun */
+    gap: 15px;
+  }
+
+  .service-card {
+    padding: 20px;
+  }
+
+  .text-services h1 {
+    font-size: 1.8rem;
+  }
+
+  .text-services p {
+    font-size: 0.95rem;
+  }
+
+  .side-panel {
+    width: 400px; /* Planşetlər üçün panelin genişliyini azaldıram */
+  }
+}
+
+/* (tablet) */
+@media (max-width: 768px) {
+  .services{
+   padding-bottom: 0;
+  }
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr); /* 1 sütun */
+    gap: 15px;
+  }
+
+  .service-card {
+    padding: 15px;
+  }
+
+  .text-services h1 {
+    font-size: 1.6rem;
+  }
+
+  .text-services p {
+    font-size: 0.9rem;
+  }
+
+  .btn.book-btn {
+    padding: 10px 20px;
+  }
+
+  .side-panel {
+    width: 100%;
+  }
+}
+/*(mobile)*/
+@media (max-width:430px){
+  .services{
+    padding-bottom: 0;
+   }
+   .services-grid {
+     grid-template-columns: repeat(1, 1fr); /* 1 sütun */
+     gap: 10px;
+   }
+ 
+   .service-card {
+     padding: 10px;
+   }
+ 
+   .text-services h1 {
+     font-size: 1.3rem;
+   }
+ 
+   .text-services p {
+     font-size: 0.9rem;
+   }
+ 
+   .btn.book-btn {
+     padding: 5px 10px;
+   }
+ 
+   .side-panel {
+     width: 100%;
+   }
+}
+/* Footer stilləri */
+footer {
+  background-color: #161c2d;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+  color: #a7a4a4;
+  margin-top: 20px;
+}

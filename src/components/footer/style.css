@@ -1,0 +1,60 @@
+.footer {
+  width: 100%;
+  
+  .footer-container {
+    margin: 0 auto;
+    display: flex;
+    width: 90%;
+    .oral {
+      /* text-align: left; */
+      padding: 20px 30px;
+      h5 {
+        color: #110f3c;
+        font-weight: 650;
+        margin: 20px 0;
+      }
+      p {
+        color: rgb(116, 115, 115);
+        font-weight: 600;
+        margin: 20px 0;
+      }
+    }
+    input {
+      border-radius: 10px;
+      border: 1px solid rgb(184, 180, 180);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      padding: 13px;
+      margin: 0;
+      background-color: #faf9fc;
+    }
+    button {
+      background-color: #5d4fff;
+      color: white;
+      font-weight: 600;
+    }
+  }
+}
+.menu {
+  width: 50%;
+  h5 {
+    color: #110f3c;
+    font-weight: 650;
+  }
+  ul{
+    margin: 20px 0;
+  }
+}
+.contact-footer {
+  width: 50%;
+  h5 {
+    color: #110f3c;
+    font-weight: 650;
+  }
+  li{
+    display: flex;
+  }
+ 
+}
+.contact-footer li img{
+  width: 30px;
+}
