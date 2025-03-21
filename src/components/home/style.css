@@ -14,7 +14,7 @@
       font-weight: bolder;
     }
     p {
-      color: rgb(90, 88, 88);
+      color: #837a7a;
     }
   }
   .services-btn {
@@ -25,13 +25,20 @@
     padding: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   }
+  .btn a {
+    color: #5d4fff;
+    font-weight: 600;
+  }
   .btn a:hover {
     text-decoration: none;
   }
   .dctr-img {
     width: 49%;
+
     img {
-      width: 100%;
+      margin: 0 0.5%;
+      width: 80%;
+      height: 600px;
     }
   }
 }
@@ -44,7 +51,7 @@
 .info-time {
   position: absolute;
   left: 50%;
-  bottom: -5%;
+  bottom: -7%;
   transform: translateX(-50%);
   width: 70%;
   display: flex;
@@ -110,7 +117,7 @@
 /* Paraqraflar */
 .textT p {
   font-size: 16px;
-  color: rgb(87, 87, 87);
+  color: #837a7a;
   margin: 3px 0;
 }
 
@@ -123,7 +130,7 @@
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: transparent;
 }
 
 .btn-app a {
@@ -137,12 +144,17 @@
   margin: 50px auto;
 }
 .service-btn {
-  color: #110f3c;
   border: none;
   border-radius: 10px;
   font-weight: 650;
-  margin-left: 130px;
+  margin-left: 140px;
+  background-color: transparent;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.service-btn a {
+  color: #5d4fff;
+  font-weight: 650;
+  font-size: 0.9rem;
 }
 .textAndBtn .second-book-btn {
   background-color: #5d4fff;
@@ -223,14 +235,14 @@
     align-items: center;
     gap: 2%;
     .images {
-      width: 48%;
+      width: 50%;
       .dentist {
         border-radius: 25px;
         height: 450px;
-        width: 500px;
+        width: 530px;
       }
       .nurse {
-        width: 430px;
+        width: 450px;
         height: 320px;
         border-radius: 25px;
         left: 17%;
@@ -258,7 +270,8 @@
       font-weight: 650;
       background-color: #5d4fff;
       color: white;
-      padding: 13px 20px;
+
+      padding: 15px 15px;
       box-shadow: 0 4px 6px rgba(15, 14, 51, 0.308);
     }
     h2 {
@@ -268,11 +281,14 @@
       margin: 10px 0;
     }
     h3 {
+      font-size: 1.275rem;
+      margin-top: 20px;
       color: #110f3c;
-      font-weight: 600;
+      width: 80%;
+      font-weight: 650;
     }
     p {
-      color: #a4a0d4;
+      color: #837a7a;
       font-weight: 600;
       width: 100%;
       margin: 10px 0;
@@ -293,13 +309,13 @@
   .text-container-home {
     margin: 0 auto;
     text-align: center;
-    width: 50%;
+    width: 45%;
     h2 {
       color: #110f3c;
       font-weight: 700;
     }
     p {
-      color: #a4a0d4;
+      color: #837a7a;
       font-weight: 600;
     }
   }
@@ -324,7 +340,7 @@
         margin: 10px 0;
       }
       p {
-        color: rgb(173, 171, 171);
+        color: #837a7a;
         font-weight: 630;
       }
       img {
@@ -365,16 +381,21 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-
+      div a {
+        color: #110f3c;
+        font-weight: 600;
+      }
       .contact-btn {
         width: 120px;
         border: none;
         padding: 10px 15px;
         border-radius: 10px;
+        background-color: transparent;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         a {
           font-weight: 650;
-          color: #110f3c;
+          font-size: 0.9rem;
+          color: #5d4fff;
         }
       }
       h2 {
@@ -383,7 +404,7 @@
         margin: 20px 0;
       }
       p {
-        color: gray;
+        color: #837a7a;
         font-weight: 600;
         margin: 10px 0;
       }
@@ -398,15 +419,20 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
       padding: 50px 40px;
       width: 48%;
+      text-align: left;
       display: flex;
-      flex-direction: column;
+      align-items: center;
       justify-content: center;
+      flex-direction: column;
       form {
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-wrap: wrap;
 
         .form-group-home {
-          width: 50%;
+          width: 45%;
+          margin: 1%;
           input {
             border-radius: 10px;
             border: 1px solid rgb(184, 180, 180);
@@ -431,7 +457,7 @@
   }
 }
 .submit-btn {
-  margin: 0 auto;
+  margin: 10px auto;
   padding: 10px 18px;
   color: white;
   background-color: #5d4fff;
@@ -777,19 +803,28 @@
     font-size: 0.7rem;
   }
   .service-btn {
-    margin-left: 60px;
+    margin-left: 80px;
     margin-top: 20px;
+  }
+  .service-btn a {
+    font-size: 0.7rem;
   }
   .textAndBtn h3 {
     font-size: 0.9rem;
+    margin-bottom: 0 !important;
+    width: 200px;
     margin-left: 30px;
   }
+  .textAndBtn {
+    margin: 0px 50px;
+  }
   .textAndBtn .second-book-btn {
+    margin-left: 30px;
+    border-radius: 15px;
+  }
+  .textAndBtn .second-book-btn a {
     font-size: 0.6rem;
     font-weight: 600;
-    margin-right: 25px;
-    margin-top: 30px;
-    padding: 1px 5px;
   }
   .second-home {
     margin-top: 150px;
@@ -838,32 +873,38 @@
 
   .third-home .third-container-home .images .dentist {
     border-radius: 25px;
-    height: 300px;
+    height: 200px;
     width: 250px;
   }
 
   .third-home .third-container-home .images .nurse {
     width: 250px;
-    height: 180px;
+    height: 150px;
     border-radius: 25px;
     left: 34%;
-    bottom: 52%;
+    bottom: 58%;
     position: absolute;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   }
 
   .third-home .third-container-home .third-text-home {
     width: 100%;
-    margin: 20px auto 0 auto !important; /* Aşağı margin-i azaltdım */
+    margin: 50px auto 0 auto !important; /* Aşağı margin-i azaltdım */
     padding-bottom: 0 !important;
   }
-
+  .third-text-home.services-btn {
+    background-color: #110f3c;
+  }
+  .third-text-home.services-btn a {
+    color: #5d4fff !important;
+    font-size: 0.4rem;
+  }
   .third-text-home h2 {
     font-size: 1.3rem;
   }
 
   .third-text-home p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .third-text-home img {
@@ -872,7 +913,7 @@
   }
 
   .third-text-home h3 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 10px auto; /* Margin-i azaltdım */
   }
 
@@ -917,7 +958,7 @@
     flex-direction: column;
     align-items: center;
     gap: 0;
-    margin: 0 !important;
+    margin: 0 auto !important;
     padding-top: 0 !important;
     margin-top: 0 !important;
   }
@@ -927,6 +968,12 @@
     padding: 0;
     min-height: 400px !important;
     margin: 0 !important;
+  }
+  .last-home .last-container-home .contact-home .contact-btn{
+    background-color: transparent;
+  }
+  .last-home .last-container-home .contact-home .contact-btn a{
+    font-size: 0.8rem;
   }
   .last-home .last-container-home .form-home {
     width: 90%;
@@ -946,7 +993,8 @@
     font-size: 1rem;
   }
   .form-home .submit-btn {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    padding: 10px 20px;
   }
   label {
     font-size: 0.4rem;

@@ -58,7 +58,7 @@ const Services = () => {
               <h1>{data.header.title}</h1>
               <p>{data.header.description}</p>
             </div>
-            <button className="btn book-btn"><Link to="/contact" className="text-light">Book an Appointment</Link></button>
+            <button className="btn book-btn-services"><Link to="/contact" className="text-light">Book an Appointment</Link></button>
           </div>
           <div className="services-grid">
             {data.services.map((service, index) => (

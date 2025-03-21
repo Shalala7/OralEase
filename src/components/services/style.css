@@ -26,7 +26,7 @@
   font-weight: 600;
 }
 
-.btn.book-btn {
+.btn.book-btn-services {
   padding: 10px 20px;
   background-color: #635dff;
   color: white;
@@ -37,7 +37,7 @@
   transition: all 0.3s ease;
 }
 
-.btn.book-btn:hover {
+.btn.book-btn-services:hover {
   background-color: #4a47e0;
 }
 
@@ -60,7 +60,7 @@
 
 .service-card:hover {
   transform: translateY(-10px);
-  box-shadow:0 0 15px 20px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 15px 20px rgba(0, 0, 0, 0.12);
 }
 
 /* Şəkil bölməsi */
@@ -129,9 +129,9 @@
 /* Panel açıldıqda */
 .side-panel.active {
   right: 0;
-  margin-top:50px ;
+  margin-top: 50px;
 }
-.side-panel .apply-btn{
+.side-panel .apply-btn {
   background-color: green;
   border-radius: 10px;
   border: none;
@@ -142,7 +142,7 @@
   transition-duration: 0.2s;
 }
 
-.side-panel .apply-btn:hover{
+.side-panel .apply-btn:hover {
   background-color: rgb(3, 71, 3);
   box-shadow: none;
 }
@@ -186,8 +186,8 @@
 
 /* (tablet) */
 @media (max-width: 768px) {
-  .services{
-   padding-bottom: 0;
+  .services {
+    padding-bottom: 0;
   }
   .services-grid {
     grid-template-columns: repeat(2, 1fr); /* 1 sütun */
@@ -215,34 +215,40 @@
   }
 }
 /*(mobile)*/
-@media (max-width:430px){
-  .services{
+@media (max-width: 430px) {
+  .services {
     padding-bottom: 0;
-   }
-   .services-grid {
-     grid-template-columns: repeat(1, 1fr); /* 1 sütun */
-     gap: 10px;
-   }
- 
-   .service-card {
-     padding: 10px;
-   }
- 
-   .text-services h1 {
-     font-size: 1.3rem;
-   }
- 
-   .text-services p {
-     font-size: 0.9rem;
-   }
- 
-   .btn.book-btn {
-     padding: 5px 10px;
-   }
- 
-   .side-panel {
-     width: 100%;
-   }
+  }
+  .services-grid {
+    grid-template-columns: repeat(1, 1fr); /* 1 sütun */
+    gap: 10px;
+  }
+
+  .service-card {
+    padding: 10px;
+  }
+
+  .text-services h1 {
+    font-size: 1.3rem;
+  }
+  .btn.book-btn-services a {
+    font-size: 0.8rem;
+    padding: 10px 0px !important;
+  }
+  .text-services p {
+    font-size: 0.9rem;
+    color: rgb(87, 86, 86);
+  }
+
+  .btn.book-btn {
+    padding: 5px 10px;
+  }
+
+  .side-panel {
+    width: 100%;
+    top:30px ;
+    transition-duration: 0.3s;
+  }
 }
 /* Footer stilləri */
 footer {

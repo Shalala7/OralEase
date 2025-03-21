@@ -45,7 +45,6 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maecenas viverra at quis nibh. Tortor, quis aenean vitae, enim, magna tortor. Sed vivamus porttitor tempus",
     "doctor": {
       "name": "Dr.Resad Nesreddinov",
-      "role": "Dentist at Global Dentistry",
       "image": "dr.jpg"
     },
     "button": {
@@ -55,7 +54,7 @@
   },
 
   "teamSection": {
-    "title": "Meet Our Expert Team",
+    "title": "See what our over 1,000 happy customers have to say",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam ex pariatur veritatis. Mollitia maxime assumenda, earum quisquam debitis praesentium aliquid est culpa?",
     "members": [
       {

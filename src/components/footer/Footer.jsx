@@ -20,7 +20,7 @@ const Footer = () => {
                   src={teethLogo}
                   alt="logo"
                   className="ms-2"
-                  style={{ height: "60px" }}
+                  
                 />
                 <h2 className="m-0 fs-4">OralEase</h2>
               </NavLink>
@@ -40,7 +40,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-sm-12 d-flex">
+          <div className="col-md-6 col-sm-12 d-flex px-5">
             <div className="menu">
               <h5 className="fw-bold">Menu</h5>
               <ul className="list-unstyled">

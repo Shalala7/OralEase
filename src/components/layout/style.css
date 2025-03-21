@@ -23,6 +23,11 @@
 .book-btn a:hover{
     text-decoration: none;
 }
+a{
+  color: #110f42;
+  font-weight: 600;
+  transition-duration: 0.3s;
+}
 li:hover {
   color: #5d4fff;
 }

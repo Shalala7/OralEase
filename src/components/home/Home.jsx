@@ -13,7 +13,7 @@ import clock from "../../assets/images/clockIcon.jpg";
 import cardTEETH from "../../assets/images/cardTEETH.svg";
 import nurse from "../../assets/images/teeth.jpeg";
 import dentist from "../../assets/images/dentistt.jpeg";
-import dr from "../../assets/images/private.jpeg";
+
 import sophie from "../../assets/images/sophie.jpg";
 import morgan from "../../assets/images/morgan.jpg";
 import lila from "../../assets/images/lila.jpg";
@@ -21,7 +21,7 @@ import braces from "../../assets/images/braces.webp";
 import teethIcon from "../../assets/images/teethIcon.avif";
 import toothbrush from "../../assets/images/toothbrush.jpg";
 import tips from "../../assets/images/tips.avif";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const imageMap = {
   "doctor.jpeg": doctor,
@@ -33,7 +33,6 @@ const imageMap = {
   "cardTEETH.svg": cardTEETH,
   "teeth.jpeg": nurse,
   "dentistt.jpeg": dentist,
-  "private.jpeg": dr,
   "teethIcon.avif": teethIcon,
   "clockIcon.jpg": clock,
   "sophie.jpg": sophie,
@@ -131,7 +130,7 @@ const Home = () => {
               className={`btn ${
                 index === 0
                   ? "first-book-btn"
-                  : "btn-light text-dark services-btn"
+                  : "services-btn"
               }`}
             >
               <Link
@@ -144,7 +143,7 @@ const Home = () => {
           ))}
         </div>
         <div className="dctr-img">
-          <img src={dr} alt="Doctor" />
+          <img src={doctor} alt="Doctor" />
         </div>
         <div className="info-time">
           <div className="info-time-container">
@@ -213,14 +212,14 @@ const Home = () => {
             <img src={dentist} className="nurse" alt="" />
           </div>
           <div className="third-text-home">
-            <div className="btn services-btn">About us</div>
+            <button className="btn services-btn"><NavLink to="/about">About us</NavLink></button>
             <h2>{home?.aboutSection?.title}</h2>
             <p>{home?.aboutSection?.description}</p>
 
             {/* Doctor Information */}
             <img src={doctor} alt="Doctor" />
             <h3>{home?.aboutSection?.doctor?.name}</h3>
-            <p>{home?.aboutSection?.doctor?.role}</p>
+            
 
             {/* About Clinic Button */}
             <a href={home?.aboutSection?.button?.link}>
@@ -263,7 +262,7 @@ const Home = () => {
           <div className="contact-home">
             {" "}
             <button className="btn contact-btn">
-              <Link to="/services">Our services</Link>
+              <Link to="/services">Contact Us</Link>
             </button>
             <h2>{home?.contactSection?.title}</h2>
             <p>{home?.contactSection?.description}</p>

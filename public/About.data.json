@@ -34,8 +34,8 @@
     }
   ],
   "buttons": [
-    { "text": "Book an Appointment", "class": "books-btn","link":"/contact" },
-    { "text": "Browse Services", "class": "services-btn","link":"/services" }
+    { "text": "Book an Appointment", "class": "book-btn-about","link":"/contact" },
+    { "text": "Browse Services", "class": "service-btn-about","link":"/services" }
   ],
   "contact": {
     "email": "info@dentalclinic.com",

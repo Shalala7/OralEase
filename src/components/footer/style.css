@@ -1,23 +1,29 @@
 .footer {
   width: 100%;
-  
   .footer-container {
     margin: 0 auto;
     display: flex;
     width: 90%;
     .oral {
       /* text-align: left; */
-      padding: 20px 30px;
+      padding: 20px;
       h5 {
         color: #110f3c;
         font-weight: 650;
         margin: 20px 0;
+      }
+      a img{
+        width: 80px;
+        
       }
       p {
         color: rgb(116, 115, 115);
         font-weight: 600;
         margin: 20px 0;
       }
+    }
+    .input-group{
+      width: 85%;
     }
     input {
       border-radius: 10px;
@@ -57,4 +63,50 @@
 }
 .contact-footer li img{
   width: 30px;
+}
+
+
+@media(max-width: 430px){
+  .footer{
+    width: 90%;
+    margin: 0px auto;
+  }
+  
+  .footer .footer-container .oral .navbar-brand{
+    margin-left: -15px;
+  }
+  .footer .footer-container .oral .navbar-brand img{
+    width: 60px;
+    margin: 0 !important;
+  }
+  .footer .footer-container .oral .navbar-brand h2{
+    font-size: 1.5rem;
+  }
+  .footer .footer-container .oral p{
+    color: rgb(97, 97, 97);
+    font-weight: 600;
+  }
+  .footer .footer-container .oral h5{
+    margin: 0 !important;
+  }
+  .footer .footer-container .oral .input-group{
+    width: 100%;
+  }
+  .footer .footer-container .oral .input-group .form-control{
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+  .footer .footer-container .menu{
+    width: 40%;
+  }
+  .footer .footer-container .contact-footer{
+    width: 45%;
+  }
+  .footer .footer-container .contact-footer a{
+    font-size: 0.8rem;
+  }
+  .footer .contact-footer .list-unstyled img{
+    width: 30px !important;
+    height: 30px !important;
+  }
 }

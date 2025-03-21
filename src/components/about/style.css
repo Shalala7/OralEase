@@ -45,6 +45,7 @@
   font-weight: 650;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  background-color: transparent;
 }
 
 .second-container h2 {
@@ -54,7 +55,7 @@
 }
 
 .second-container p {
-  color: rgb(182, 178, 178);
+  color: #777680;
   font-weight: 600;
   margin: 30px 0;
 }
@@ -112,7 +113,9 @@
 
 .third .values {
   color: #5d4fff;
+  background-color: transparent;
   font-weight: 650;
+  font-size: 0.9rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
@@ -124,7 +127,7 @@
   gap: 10px;
 }
 
-.books-btn {
+.book-btn-about {
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   color: white;
@@ -133,7 +136,7 @@
   border: none;
 }
 
-.services-btn {
+.service-btn-about {
   color: #5d4fff;
   font-weight: 650;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -151,13 +154,22 @@
 
 .card-about {
   cursor: pointer;
+  border: 0.5px solid rgb(180, 177, 177);
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   width: 100%;
   transition: all 0.4s ease;
 }
-
+.icon-box {
+  margin-right: 8px;
+}
 .card-about:hover {
   cursor: pointer;
-  box-shadow: 0 0 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 4px 6px rgba(110, 105, 105, 0.2);
+}
+.buttons a {
+  padding: 15px;
+  border-radius: 12px;
 }
 
 /* Media Queries - 1024px və 768px üçün */
@@ -275,7 +287,7 @@
     height: 50vh;
   }
   .second-container {
-    padding: 0 ;
+    padding: 0;
     margin-bottom: 0;
   }
 
@@ -351,18 +363,18 @@
   }
   .footer {
     height: 80vh;
-    margin-top:0;
+    margin-top: 0;
   }
-  .third{
+  .third {
     margin: 200px auto;
   }
-  .footer .input-group .form-control{
+  .footer .input-group .form-control {
     width: 100%;
   }
-  .footer .input-group .subscribe{
+  .footer .input-group .subscribe {
     width: 100%;
   }
-  .footer .contact-footer .list-unstyled img{
+  .footer .contact-footer .list-unstyled img {
     height: 40px;
     width: 40px;
   }
@@ -400,11 +412,11 @@
   }
   .second-container {
     padding: 0 30px;
-    margin: 0 !important;
+    margin: 0 auto !important;
   }
 
   .second-container button {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .second-container h2 {
@@ -412,7 +424,8 @@
   }
 
   .second-container p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    font-weight: 600;
   }
 
   .gallery {
@@ -441,7 +454,12 @@
   .buttons {
     flex-direction: column;
   }
-
+  .buttons a {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 10px !important;
+  }
+  
   .text {
     display: flex;
     flex-direction: column;
@@ -455,7 +473,7 @@
   }
   .card-about {
     width: 100%;
-    padding: 0 !important;
+    padding: 8px !important;
     margin: 0 auto;
   }
   .card-about .icon-box {
@@ -471,33 +489,33 @@
     margin-top: 0;
     height: 100vh;
   }
-  .third{
+  .third {
     margin: 200px auto;
   }
-  .footer .input-group .form-control{
+  .footer .input-group .form-control {
     width: 100%;
   }
-  .footer .input-group .subscribe{
+  .footer .input-group .subscribe {
     width: 100%;
   }
-  .footer .contact-footer .list-unstyled img{
+  .footer .contact-footer .list-unstyled img {
     height: 40px;
     width: 40px;
   }
 }
 
-@media(max-width:375px){
-  .third{
+@media (max-width: 375px) {
+  .third {
     margin: 300px auto !important;
   }
-  .footer .input-group .form-control{
+  .footer .input-group .form-control {
     width: 100%;
   }
-  .footer .input-group .subscribe{
+  .footer .input-group .subscribe {
     width: 100%;
   }
-  .footer .contact-footer .list-unstyled img{
-    height: 40px;
-    width: 40px;
+  .footer .contact-footer .list-unstyled img {
+    height: 30px;
+    width: 30px;
   }
 }

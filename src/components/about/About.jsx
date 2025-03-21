@@ -122,7 +122,7 @@ const About = () => {
               <Link
                 key={index}
                 to={btn.link}
-                className={`btn ${btn.class} px-4 py-2`}
+                className={`btn ${btn.class}`}
               >
                 {btn.text}
               </Link>
