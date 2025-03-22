@@ -212,7 +212,7 @@ const Home = () => {
             <img src={dentist} className="nurse" alt="" />
           </div>
           <div className="third-text-home">
-            <button className="btn services-btn"><NavLink to="/about">About us</NavLink></button>
+            <button className="btn services-btn-second"><NavLink to="/about">About us</NavLink></button>
             <h2>{home?.aboutSection?.title}</h2>
             <p>{home?.aboutSection?.description}</p>
 
